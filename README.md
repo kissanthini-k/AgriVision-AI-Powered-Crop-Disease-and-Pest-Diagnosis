@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-# 🌿 Agri Disease Detector
+# 🌿 AgriVision -- AI powered crop disease and pest diagnosis
 
 ### End-to-End Crop Disease & Pest Detection for Indian Agriculture
 
