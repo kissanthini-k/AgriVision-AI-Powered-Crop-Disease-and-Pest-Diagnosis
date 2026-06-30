@@ -1,0 +1,11 @@
+torch
+torchvision
+torchaudio
+opencv-python
+albumentations
+Pillow
+numpy
+scikit-learn
+xhtml2pdf
+tabulate
+python-dotenv

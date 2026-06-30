@@ -1,0 +1,6605 @@
+{
+  "late_blight": {
+    "en": "Late Blight",
+    "type": "disease",
+    "crops": [
+      "potato",
+      "tomato"
+    ],
+    "season": [
+      "rabi"
+    ],
+    "agro_zones": [
+      "Western Himalayan Region",
+      "Eastern Himalayan Region",
+      "Trans-Gangetic Plains Region",
+      "Middle Gangetic Plains Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 3000,
+        "description": "Small, pale to dark green, irregular spots on leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 25,
+        "inr_per_acre": 7500,
+        "description": "Spots expand rapidly, turning brown/black with white fuzz on undersides."
+      },
+      "late": {
+        "yield_loss_pct": 45,
+        "inr_per_acre": 13500,
+        "description": "Whole leaves and stems blighted; severe plant collapse."
+      }
+    },
+    "solution": {
+      "pesticide": "Mancozeb 75% WP @ 2.5g/L or Metalaxyl 8% + Mancozeb 64% WP @ 2.5g/L",
+      "application": "Foliar spray immediately upon symptom observation, repeat after 7-10 days.",
+      "organic_alternative": "Copper-based fungicides or Trichoderma viride formulation.",
+      "source": "TNAU Agritech Portal"
+    }
+  },
+  "early_blight": {
+    "en": "Early Blight",
+    "type": "disease",
+    "crops": [
+      "potato",
+      "tomato"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Central Plateau and Hills Region",
+      "Western Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 5,
+        "inr_per_acre": 1500,
+        "description": "Small brown/black spots with concentric rings."
+      },
+      "mid": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 4500,
+        "description": "Spots merge, lower leaves start yellowing and dropping."
+      },
+      "late": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 9000,
+        "description": "Extensive defoliation affecting fruit size and quality."
+      }
+    },
+    "solution": {
+      "pesticide": "Chlorothalonil 75% WP @ 2g/L or Mancozeb 75% WP @ 2.5g/L",
+      "application": "Spray at 10-day intervals upon first sign of disease.",
+      "organic_alternative": "Bacillus subtilis spray.",
+      "source": "ICAR-IIHR"
+    }
+  },
+  "rice_blast": {
+    "en": "Rice Blast",
+    "type": "disease",
+    "crops": [
+      "rice"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "East Coast Plains and Hills Region",
+      "Lower Gangetic Plains Region",
+      "Southern Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 4000,
+        "description": "Spindle-shaped spots with gray centers on leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 8000,
+        "description": "Spots enlarge and coalesce, killing entire leaves."
+      },
+      "late": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 15000,
+        "description": "Neck blast phase leading to completely empty/white panicles."
+      }
+    },
+    "solution": {
+      "pesticide": "Tricyclazole 75% WP @ 0.6g/L or Propiconazole 25% EC @ 1ml/L",
+      "application": "Spray at tillering and panicle emergence stages.",
+      "organic_alternative": "Pseudomonas fluorescens @ 10g/L.",
+      "source": "ICAR-NRRI"
+    }
+  },
+  "brown_spot": {
+    "en": "Brown Spot",
+    "type": "disease",
+    "crops": [
+      "rice"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Lower Gangetic Plains Region",
+      "Eastern Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 5,
+        "inr_per_acre": 1000,
+        "description": "Oval to cylindrical brown spots on leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 3000,
+        "description": "Numerous spots causing leaves to dry out."
+      },
+      "late": {
+        "yield_loss_pct": 25,
+        "inr_per_acre": 5000,
+        "description": "Severe spotting on grains, reducing quality and weight."
+      }
+    },
+    "solution": {
+      "pesticide": "Mancozeb 75% WP @ 2g/L or Carbendazim 50% WP @ 1g/L",
+      "application": "Spray during tillering and heading stages.",
+      "organic_alternative": "Application of adequate Nitrogen and Potassium fertilizers.",
+      "source": "TNAU Agritech Portal"
+    }
+  },
+  "bacterial_leaf_blight": {
+    "en": "Bacterial Leaf Blight",
+    "type": "disease",
+    "crops": [
+      "rice"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Trans-Gangetic Plains Region",
+      "West Coast Plains and Ghats Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2500,
+        "description": "Water-soaked streaks along leaf margins."
+      },
+      "mid": {
+        "yield_loss_pct": 25,
+        "inr_per_acre": 6000,
+        "description": "Streaks turn yellow to white, leaves dry and curl."
+      },
+      "late": {
+        "yield_loss_pct": 40,
+        "inr_per_acre": 10000,
+        "description": "Kresek (seedling wilt) or severe drying of mature plants."
+      }
+    },
+    "solution": {
+      "pesticide": "Streptomycin sulphate + Tetracycline combination @ 0.3g/L + Copper Oxychloride @ 2.5g/L",
+      "application": "Spray at initial disease appearance. Avoid excess nitrogen.",
+      "organic_alternative": "Cow dung extract spray (20%).",
+      "source": "ICAR-NRRI"
+    }
+  },
+  "wheat_rust_yellow": {
+    "en": "Yellow Rust",
+    "type": "disease",
+    "crops": [
+      "wheat"
+    ],
+    "season": [
+      "rabi"
+    ],
+    "agro_zones": [
+      "Trans-Gangetic Plains Region",
+      "Western Himalayan Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 4500,
+        "description": "Yellow pustules forming parallel lines on leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 10000,
+        "description": "Pustules cover most of the leaf area, plant vigour drops."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 18000,
+        "description": "Severe shriveling of grains, massive yield reduction."
+      }
+    },
+    "solution": {
+      "pesticide": "Propiconazole 25% EC @ 1ml/L or Tebuconazole 25.9% EC @ 1ml/L",
+      "application": "Spray when disease is seen, repeat after 15 days if needed.",
+      "organic_alternative": "Use resistant varieties (e.g., HD 2967).",
+      "source": "ICAR-IIWBR"
+    }
+  },
+  "wheat_rust_brown": {
+    "en": "Brown Rust",
+    "type": "disease",
+    "crops": [
+      "wheat"
+    ],
+    "season": [
+      "rabi"
+    ],
+    "agro_zones": [
+      "Central Plateau and Hills Region",
+      "Middle Gangetic Plains Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 3000,
+        "description": "Scattered brown pustules on upper leaf surface."
+      },
+      "mid": {
+        "yield_loss_pct": 20,
+        "inr_per_acre": 6000,
+        "description": "Increased pustule density causing leaf drying."
+      },
+      "late": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 10500,
+        "description": "Early leaf death resulting in reduced grain weight."
+      }
+    },
+    "solution": {
+      "pesticide": "Propiconazole 25% EC @ 1ml/L or Mancozeb 75% WP @ 2.5g/L",
+      "application": "Foliar spray at disease onset.",
+      "organic_alternative": "Resistant varieties and balanced fertilization.",
+      "source": "ICAR-IIWBR"
+    }
+  },
+  "red_rot_sugarcane": {
+    "en": "Red Rot",
+    "type": "disease",
+    "crops": [
+      "sugarcane"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Upper Gangetic Plains Region",
+      "Middle Gangetic Plains Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 20,
+        "inr_per_acre": 10000,
+        "description": "Yellowing/drying of top leaves; red lesions on midribs."
+      },
+      "mid": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 25000,
+        "description": "Canes shrink, inner tissues turn red with white cross-bands; sour smell."
+      },
+      "late": {
+        "yield_loss_pct": 80,
+        "inr_per_acre": 40000,
+        "description": "Complete clump drying and total loss of sugar recovery."
+      }
+    },
+    "solution": {
+      "pesticide": "Thiophanate Methyl 70% WP @ 1g/L for sett treatment",
+      "application": "Treat setts before planting. Uproot and burn affected clumps.",
+      "organic_alternative": "Trichoderma viride sett treatment and soil application.",
+      "source": "ICAR-SBI"
+    }
+  },
+  "cotton_leaf_curl": {
+    "en": "Cotton Leaf Curl Virus",
+    "type": "disease",
+    "crops": [
+      "cotton"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Trans-Gangetic Plains Region",
+      "Western Dry Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 20,
+        "inr_per_acre": 6000,
+        "description": "Upward curling of leaves and thickening of veins."
+      },
+      "mid": {
+        "yield_loss_pct": 40,
+        "inr_per_acre": 12000,
+        "description": "Formation of leaf-like enations on veins; stunted growth."
+      },
+      "late": {
+        "yield_loss_pct": 70,
+        "inr_per_acre": 21000,
+        "description": "Severe stunting, no boll formation."
+      }
+    },
+    "solution": {
+      "pesticide": "Imidacloprid 17.8% SL @ 0.5ml/L or Thiamethoxam 25% WG @ 0.4g/L (to control Whitefly vector)",
+      "application": "Spray vector control insecticides. Uproot infected plants.",
+      "organic_alternative": "Neem seed kernel extract (NSKE) 5%.",
+      "source": "ICAR-CICR"
+    }
+  },
+  "downy_mildew_maize": {
+    "en": "Downy Mildew",
+    "type": "disease",
+    "crops": [
+      "maize"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Central Plateau and Hills Region",
+      "Western Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Yellow/white stripes at the base of leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Downy fungal growth on lower leaf surfaces; malformed tassels."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 12000,
+        "description": "Crazy top symptom, no cob formation."
+      }
+    },
+    "solution": {
+      "pesticide": "Metalaxyl MZ 72 WP @ 2.5g/L",
+      "application": "Foliar spray at 15-20 days after sowing.",
+      "organic_alternative": "Seed treatment with Trichoderma.",
+      "source": "ICAR-IIMR"
+    }
+  },
+  "northern_leaf_blight": {
+    "en": "Northern Leaf Blight",
+    "type": "disease",
+    "crops": [
+      "maize"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Eastern Himalayan Region",
+      "Southern Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Cigar-shaped grayish-green to tan spots on lower leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 25,
+        "inr_per_acre": 5000,
+        "description": "Lesions expand and coalesce; upper leaves get infected."
+      },
+      "late": {
+        "yield_loss_pct": 40,
+        "inr_per_acre": 8000,
+        "description": "Complete blighting of leaves reducing grain fill."
+      }
+    },
+    "solution": {
+      "pesticide": "Mancozeb 75% WP @ 2.5g/L or Propiconazole 25% EC @ 1ml/L",
+      "application": "Spray upon noticing symptoms.",
+      "organic_alternative": "Crop rotation and burying residues.",
+      "source": "ICAR-IIMR"
+    }
+  },
+  "tomato_mosaic_virus": {
+    "en": "Tomato Mosaic Virus",
+    "type": "disease",
+    "crops": [
+      "tomato"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Southern Plateau and Hills Region",
+      "West Coast Plains and Ghats Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 5000,
+        "description": "Light and dark green mottling/mosaic pattern on leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 12000,
+        "description": "Leaf distortion, fern-like appearance, stunted plant."
+      },
+      "late": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 18000,
+        "description": "Severely reduced fruit yield and internal fruit browning."
+      }
+    },
+    "solution": {
+      "pesticide": "None (Viral disease)",
+      "application": "Remove and destroy infected plants. Wash hands and tools.",
+      "organic_alternative": "Sanitation, resistant varieties, and controlling vector insects.",
+      "source": "ICAR-IIHR"
+    }
+  },
+  "chilli_anthracnose": {
+    "en": "Chilli Anthracnose",
+    "type": "disease",
+    "crops": [
+      "chilli"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Southern Plateau and Hills Region",
+      "East Coast Plains and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 6000,
+        "description": "Small, circular, sunken spots on ripe fruits."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 12000,
+        "description": "Spots expand with black concentric rings of fungal structures."
+      },
+      "late": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 20000,
+        "description": "Fruits rot completely, branch die-back occurs."
+      }
+    },
+    "solution": {
+      "pesticide": "Propiconazole 25% EC @ 1ml/L or Carbendazim 50% WP @ 1g/L",
+      "application": "Spray when fruits start ripening.",
+      "organic_alternative": "Pseudomonas fluorescens spray.",
+      "source": "TNAU Agritech Portal"
+    }
+  },
+  "soybean_rust": {
+    "en": "Soybean Rust",
+    "type": "disease",
+    "crops": [
+      "soybean"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Central Plateau and Hills Region",
+      "Western Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2500,
+        "description": "Small tan to dark brown lesions on lower leaves."
+      },
+      "mid": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 8500,
+        "description": "Pustules erupt releasing spores; leaves turn yellow and drop."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Premature defoliation resulting in few, small pods."
+      }
+    },
+    "solution": {
+      "pesticide": "Hexaconazole 5% EC @ 1ml/L or Propiconazole 25% EC @ 1ml/L",
+      "application": "Apply at the first sign of disease and repeat after 15 days.",
+      "organic_alternative": "Early maturing varieties.",
+      "source": "ICAR-IISR"
+    }
+  },
+  "tundu_disease_wheat": {
+    "en": "Tundu Disease (Yellow Ear Rot)",
+    "type": "disease",
+    "crops": [
+      "wheat"
+    ],
+    "season": [
+      "rabi"
+    ],
+    "agro_zones": [
+      "Trans-Gangetic Plains Region",
+      "Upper Gangetic Plains Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 3000,
+        "description": "Yellow slime on stem and leaves before heading."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 9000,
+        "description": "Twisting and distortion of central leaves and earhead."
+      },
+      "late": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 15000,
+        "description": "Earheads fail to emerge or are completely covered in yellow bacterial mass."
+      }
+    },
+    "solution": {
+      "pesticide": "Nematode control (disease is nematode-bacterial complex)",
+      "application": "Float seeds in 20% salt solution and skim off galls.",
+      "organic_alternative": "Summer ploughing to kill nematode cysts.",
+      "source": "ICAR-IIWBR"
+    }
+  },
+  "brown_planthopper": {
+    "en": "Brown Planthopper",
+    "type": "pest",
+    "crops": [
+      "rice"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "East Coast Plains and Hills Region",
+      "Lower Gangetic Plains Region",
+      "Southern Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 4000,
+        "description": "Nymphs and adults feed at the base of the plant."
+      },
+      "mid": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 9000,
+        "description": "Leaves turn yellow then brown; honeydew promotes sooty mold."
+      },
+      "late": {
+        "yield_loss_pct": 70,
+        "inr_per_acre": 18000,
+        "description": "'Hopperburn' occurs; large circular patches of dead plants."
+      }
+    },
+    "solution": {
+      "pesticide": "Pymetrozine 50% WG @ 120g/acre or Dinotefuran 20% SG @ 80g/acre",
+      "application": "Direct spray at the basal portion of the plant.",
+      "organic_alternative": "Alternate wetting and drying of the field.",
+      "source": "ICAR-NRRI"
+    }
+  },
+  "pink_bollworm": {
+    "en": "Pink Bollworm",
+    "type": "pest",
+    "crops": [
+      "cotton"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Western Plateau and Hills Region",
+      "Central Plateau and Hills Region",
+      "Southern Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 6000,
+        "description": "Rosette flowers; larvae feed on squares and flowers."
+      },
+      "mid": {
+        "yield_loss_pct": 40,
+        "inr_per_acre": 16000,
+        "description": "Larvae enter bolls, feed on seeds, preventing lint development."
+      },
+      "late": {
+        "yield_loss_pct": 80,
+        "inr_per_acre": 32000,
+        "description": "Bolls fail to open fully, lint is stained and rotted."
+      }
+    },
+    "solution": {
+      "pesticide": "Spinosad 45% SC @ 75ml/acre or Emamectin benzoate 5% SG @ 100g/acre",
+      "application": "Spray when 10% bolls/flowers are infested.",
+      "organic_alternative": "Pheromone traps (5/acre) and Trichogramma egg parasitoids.",
+      "source": "ICAR-CICR"
+    }
+  },
+  "fall_armyworm": {
+    "en": "Fall Armyworm",
+    "type": "pest",
+    "crops": [
+      "maize"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Southern Plateau and Hills Region",
+      "Western Plateau and Hills Region",
+      "East Coast Plains and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 3000,
+        "description": "Papery windows on leaves caused by early instar larvae."
+      },
+      "mid": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 7000,
+        "description": "Extensive leaf defoliation with ragged edges and lots of frass."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 12000,
+        "description": "Larvae bore into whorls and cobs, severely reducing yield."
+      }
+    },
+    "solution": {
+      "pesticide": "Spinetoram 11.7% SC @ 100ml/acre or Chlorantraniliprole 18.5 SC @ 80ml/acre",
+      "application": "Direct spray into the whorl of the plant.",
+      "organic_alternative": "Application of sand+lime into whorls or Metarhizium anisopliae.",
+      "source": "ICAR-IIMR"
+    }
+  },
+  "aphids_cotton": {
+    "en": "Cotton Aphids",
+    "type": "pest",
+    "crops": [
+      "cotton"
+    ],
+    "season": [
+      "kharif"
+    ],
+    "agro_zones": [
+      "Trans-Gangetic Plains Region",
+      "Central Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 3000,
+        "description": "Colonies on underside of young leaves sucking sap."
+      },
+      "mid": {
+        "yield_loss_pct": 20,
+        "inr_per_acre": 6000,
+        "description": "Leaves curl downwards and become yellowish."
+      },
+      "late": {
+        "yield_loss_pct": 35,
+        "inr_per_acre": 10500,
+        "description": "Heavy honeydew secretion leading to sooty mold, stunting."
+      }
+    },
+    "solution": {
+      "pesticide": "Imidacloprid 17.8% SL @ 40ml/acre or Flonicamid 50% WG @ 60g/acre",
+      "application": "Spray when damage reaches Economic Threshold Level (ETL).",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L.",
+      "source": "ICAR-CICR"
+    }
+  },
+  "thrips_chilli": {
+    "en": "Chilli Thrips",
+    "type": "pest",
+    "crops": [
+      "chilli"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "Southern Plateau and Hills Region",
+      "Western Plateau and Hills Region"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 15,
+        "inr_per_acre": 6000,
+        "description": "Scraping of leaf epidermis, leaves show silvery patches."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 12000,
+        "description": "Leaves curl upwards, becoming brittle ('boat shape')."
+      },
+      "late": {
+        "yield_loss_pct": 50,
+        "inr_per_acre": 20000,
+        "description": "Severe flower drop, stunting, deformed fruits."
+      }
+    },
+    "solution": {
+      "pesticide": "Fipronil 5% SC @ 2ml/L or Spinosad 45% SC @ 0.3ml/L",
+      "application": "Spray primarily focusing on the terminal growth.",
+      "organic_alternative": "Blue sticky traps (10/acre) and Neem oil.",
+      "source": "ICAR-IIHR"
+    }
+  },
+  "odontothrips_loti": {
+    "en": "Odontothrips Loti",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "trialeurodes_vaporariorum": {
+    "en": "Trialeurodes Vaporariorum",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "panonchus_citri_mcgregor": {
+    "en": "Panonchus Citri Mcgregor",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "phyllocnistis_citrella_stainton": {
+    "en": "Phyllocnistis Citrella Stainton",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "flea_beetle": {
+    "en": "Flea Beetle",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "corngrayleafspot": {
+    "en": "Corn   Gray Leaf Spot",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "grasshopper": {
+    "en": "Grasshopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "locust": {
+    "en": "Locust",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bacterialpanicleblight": {
+    "en": "Bacterial Panicle Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "asiatic_rice_borer": {
+    "en": "Asiatic Rice Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "locustoidea": {
+    "en": "Locustoidea",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_stem_weevil": {
+    "en": "Jute Stem Weevil",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "english_grain_aphid": {
+    "en": "English Grain Aphid",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "therioaphis_maculata_buckton": {
+    "en": "Therioaphis Maculata Buckton",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cerodonta_denticornis": {
+    "en": "Cerodonta Denticornis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "deporaus_marginatus_pascoe": {
+    "en": "Deporaus Marginatus Pascoe",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "mango_flat_beak_leafhopper": {
+    "en": "Mango Flat Beak Leafhopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "dasineura_sp": {
+    "en": "Dasineura Sp",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cutworm": {
+    "en": "Cutworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "corn_borer": {
+    "en": "Corn Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "sericaorient_alismots_chulsky": {
+    "en": "Sericaorient Alismots Chulsky",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_gall_midge": {
+    "en": "Rice Gall Midge",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "phyllocoptes_oleiverus_ashmead": {
+    "en": "Phyllocoptes Oleiverus Ashmead",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "potatohealthy": {
+    "en": "Potato   Healthy",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "adristyrannus": {
+    "en": "Adristyrannus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "white_backed_plant_hopper": {
+    "en": "White Backed Plant Hopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "army_worm": {
+    "en": "Army Worm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "meadow_moth": {
+    "en": "Meadow Moth",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "mites": {
+    "en": "Mites",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "gall_fly": {
+    "en": "Gall Fly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "thrips": {
+    "en": "Thrips",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "parathrene_regalis": {
+    "en": "Parathrene Regalis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "erythroneura_apicalis": {
+    "en": "Erythroneura Apicalis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bacterial_blight": {
+    "en": "Bacterial Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "white_margined_moth": {
+    "en": "White Margined Moth",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_semilooper": {
+    "en": "Jute Semilooper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "aphis_citricola_vander_goot": {
+    "en": "Aphis Citricola Vander Goot",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "small_brown_plant_hopper": {
+    "en": "Small Brown Plant Hopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "green_bug": {
+    "en": "Green Bug",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "longlegged_spider_mite": {
+    "en": "Longlegged Spider Mite",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "oides_decempunctata": {
+    "en": "Oides Decempunctata",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "dacus_dorsalishendel": {
+    "en": "Dacus Dorsalis(Hendel)",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wireworm": {
+    "en": "Wireworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "pieris_canidia": {
+    "en": "Pieris Canidia",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "lawana_imitata_melichar": {
+    "en": "Lawana Imitata Melichar",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_aphid": {
+    "en": "Jute Aphid",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "flax_budworm": {
+    "en": "Flax Budworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "miridae": {
+    "en": "Miridae",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "indigo_caterpillar": {
+    "en": "Indigo Caterpillar",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "scirtothrips_dorsalis_hood": {
+    "en": "Scirtothrips Dorsalis Hood",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "aleurocanthus_spiniferus": {
+    "en": "Aleurocanthus Spiniferus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cicadella_viridis": {
+    "en": "Cicadella Viridis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "red_rot": {
+    "en": "Red Rot",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "grain_spreader_thrips": {
+    "en": "Grain Spreader Thrips",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "pseudococcus_comstocki_kuwana": {
+    "en": "Pseudococcus Comstocki Kuwana",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "yellow_mite": {
+    "en": "Yellow Mite",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_water_weevil": {
+    "en": "Rice Water Weevil",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "alfalfa_plant_bug": {
+    "en": "Alfalfa Plant Bug",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "fruit_piercing_moth": {
+    "en": "Fruit Piercing Moth",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "tarnished_plant_bug": {
+    "en": "Tarnished Plant Bug",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_stick_insect": {
+    "en": "Jute Stick Insect",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "stem_borer": {
+    "en": "Stem Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "ceroplastes_rubens": {
+    "en": "Ceroplastes Rubens",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "black_hairy": {
+    "en": "Black Hairy",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_leafhopper": {
+    "en": "Rice Leafhopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "peach_borer": {
+    "en": "Peach Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "penthaleus_major": {
+    "en": "Penthaleus Major",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "yellow_cutworm": {
+    "en": "Yellow Cutworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheat_blossom_midge": {
+    "en": "Wheat Blossom Midge",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "parlatoria_zizyphus_lucus": {
+    "en": "Parlatoria Zizyphus Lucus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "whitefly": {
+    "en": "Whitefly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "hispa": {
+    "en": "Hispa",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "beet_army_worm": {
+    "en": "Beet Army Worm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "blister_beetle": {
+    "en": "Blister Beetle",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "pod_borer": {
+    "en": "Pod Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "prodenia_litura": {
+    "en": "Prodenia Litura",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "beet_weevil": {
+    "en": "Beet Weevil",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "blast": {
+    "en": "Blast",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "large_cutworm": {
+    "en": "Large Cutworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "colomerus_vitis": {
+    "en": "Colomerus Vitis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "sternochetus_frigidus": {
+    "en": "Sternochetus Frigidus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "grub": {
+    "en": "Grub",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_shell_pest": {
+    "en": "Rice Shell Pest",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_leaf_caterpillar": {
+    "en": "Rice Leaf Caterpillar",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "potatolateblight": {
+    "en": "Potato   Late Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "leaf_beetle": {
+    "en": "Leaf Beetle",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bird_cherryoataphid": {
+    "en": "Bird Cherry-Oataphid",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_leaf_roller": {
+    "en": "Rice Leaf Roller",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rice_stemfly": {
+    "en": "Rice Stemfly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "sawfly": {
+    "en": "Sawfly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "toxoptera_aurantii": {
+    "en": "Toxoptera Aurantii",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "xylotrechus": {
+    "en": "Xylotrechus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_red_mite": {
+    "en": "Jute Red Mite",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "riceleafblast": {
+    "en": "Rice   Leaf Blast",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "tetradacus_c_bactrocera_minax": {
+    "en": "Tetradacus C Bactrocera Minax",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "viteus_vitifoliae": {
+    "en": "Viteus Vitifoliae",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "ampelophaga": {
+    "en": "Ampelophaga",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "alfalfa_seed_chalcid": {
+    "en": "Alfalfa Seed Chalcid",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "mole_cricket": {
+    "en": "Mole Cricket",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "toxoptera_citricidus": {
+    "en": "Toxoptera Citricidus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "corncommonrust": {
+    "en": "Corn   Common Rust",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "polyphagotars_onemus_latus": {
+    "en": "Polyphagotars Onemus Latus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "brownspot": {
+    "en": "Brown Spot",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "chlumetia_transversa": {
+    "en": "Chlumetia Transversa",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "beet_fly": {
+    "en": "Beet Fly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "corn_earworm": {
+    "en": "Corn Earworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "beetle": {
+    "en": "Beetle",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "chrysomphalus_aonidum": {
+    "en": "Chrysomphalus Aonidum",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bollworm": {
+    "en": "Bollworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "aphids": {
+    "en": "Aphids",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "spilosoma_obliqua": {
+    "en": "Spilosoma Obliqua",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bacterialleafstreak": {
+    "en": "Bacterial Leaf Streak",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "icerya_purchasi_maskell": {
+    "en": "Icerya Purchasi Maskell",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "lycorma_delicatula": {
+    "en": "Lycorma Delicatula",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_stem_girdler": {
+    "en": "Jute Stem Girdler",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "papilio_xuthus": {
+    "en": "Papilio Xuthus",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "yellow_rice_borer": {
+    "en": "Yellow Rice Borer",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "downymildew": {
+    "en": "Downy Mildew",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "potatoearlyblight": {
+    "en": "Potato   Early Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheat_phloeothrips": {
+    "en": "Wheat Phloeothrips",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "deadheart": {
+    "en": "Dead Heart",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "rhytidodera_bowrinii_white": {
+    "en": "Rhytidodera Bowrinii White",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "termite_odontotermes_rambur": {
+    "en": "Termite Odontotermes (Rambur)",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "field_cricket": {
+    "en": "Field Cricket",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "potosiabre_vitarsis": {
+    "en": "Potosiabre Vitarsis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "mealybug": {
+    "en": "Mealybug",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheatyellowrust": {
+    "en": "Wheat   Yellow Rust",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "apolygus_lucorum": {
+    "en": "Apolygus Lucorum",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cornhealthy": {
+    "en": "Corn   Healthy",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "limacodidae": {
+    "en": "Limacodidae",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "nipaecoccus_vastalor": {
+    "en": "Nipaecoccus Vastalor",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheathealthy": {
+    "en": "Wheat   Healthy",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "riceneckblast": {
+    "en": "Rice   Neck Blast",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "salurnis_marginella_guerr": {
+    "en": "Salurnis Marginella Guerr",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheat_sawfly": {
+    "en": "Wheat Sawfly",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "ricebrownspot": {
+    "en": "Rice   Brown Spot",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bacterialleafblight": {
+    "en": "Bacterial Leaf Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "unaspis_yanonensis": {
+    "en": "Unaspis Yanonensis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "wheatbrownrust": {
+    "en": "Wheat   Brown Rust",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "brown_plant_hopper": {
+    "en": "Brown Plant Hopper",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "red_spider": {
+    "en": "Red Spider",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "bactrocera_tsuneonis": {
+    "en": "Bactrocera Tsuneonis",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "healthy": {
+    "en": "Healthy",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "alfalfa_weevil": {
+    "en": "Alfalfa Weevil",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "jute_hairy": {
+    "en": "Jute Hairy",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "lytta_polita": {
+    "en": "Lytta Polita",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "black_cutworm": {
+    "en": "Black Cutworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "ricehealthy": {
+    "en": "Rice   Healthy",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cabbage_army_worm": {
+    "en": "Cabbage Army Worm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "termite": {
+    "en": "Termite",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "beet_spot_flies": {
+    "en": "Beet Spot Flies",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cornnorthernleafblight": {
+    "en": "Corn   Northern Leaf Blight",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "paddy_stem_maggot": {
+    "en": "Paddy Stem Maggot",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "tungro": {
+    "en": "Tungro",
+    "type": "disease",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "brevipoalpus_lewisi_mcgregor": {
+    "en": "Brevipoalpus Lewisi Mcgregor",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "legume_blister_beetle": {
+    "en": "Legume Blister Beetle",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "cicadellidae": {
+    "en": "Cicadellidae",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  },
+  "pestbollworm": {
+    "en": "Pest Bollworm",
+    "type": "pest",
+    "crops": [
+      "unknown"
+    ],
+    "season": [
+      "kharif",
+      "rabi"
+    ],
+    "agro_zones": [
+      "All Regions"
+    ],
+    "severity": {
+      "early": {
+        "yield_loss_pct": 10,
+        "inr_per_acre": 2000,
+        "description": "Early symptoms observed. Monitor closely."
+      },
+      "mid": {
+        "yield_loss_pct": 30,
+        "inr_per_acre": 6000,
+        "description": "Moderate damage visible on plant structures."
+      },
+      "late": {
+        "yield_loss_pct": 60,
+        "inr_per_acre": 15000,
+        "description": "Severe infestation/infection causing massive damage."
+      }
+    },
+    "solution": {
+      "pesticide": "Broad-spectrum control agent or consult local agricultural officer.",
+      "application": "Apply as per generic guidelines for this type of issue.",
+      "organic_alternative": "Neem oil spray (1500 ppm) @ 5ml/L or Trichoderma soil application.",
+      "source": "Auto-Generated DB"
+    }
+  }
+}
